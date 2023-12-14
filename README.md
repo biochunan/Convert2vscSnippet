@@ -2,6 +2,7 @@
 a simple shell script to convert a piece of code to vscode snippet 
 
 ## Usage
+
 Grant execution permission 
 ```shell
 $ chmod +x convert2snippet.sh 
