@@ -1,7 +1,8 @@
 # Convert2vscSnippet
 a simple shell script to convert a piece of code to vscode snippet 
 
-## Usage
+## Usage
+
 Grant execution permission 
 ```shell
 $ chmod +x convert2snippet.sh 
