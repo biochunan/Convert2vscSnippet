@@ -1,5 +1,12 @@
 # Convert2vscSnippet
-a simple shell script to convert a piece of code to vscode snippet 
+
+A simple shell script to convert a piece of code to vscode snippet 
+
+## Installation
+
+```shell
+$ pip install git+https://github.com/biochunan/Convert2vscSnippet
+```
 
 ## Usage
 
