@@ -20,7 +20,7 @@ def main():
         with contextlib.suppress(EOFError):
             while True:
                 line = input()
-                if line == "END":
+                if line.strip() == "END":
                     break 
                 lines.append(line)
     # Process each line
