@@ -25,7 +25,9 @@ def main():
                 lines.append(line)
     # Process each line
     for line in lines:
-        print(process_line(line.strip()))
+        # remove the last newline character only, preserve the any leading whitespace
+        line = line.rstrip('\n')
+        print(process_line(line))
 
 if __name__ == "__main__":
     main()
