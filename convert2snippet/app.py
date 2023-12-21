@@ -3,7 +3,7 @@ import sys
 
 def process_line(line) -> str:
     # Escape backslashes and dollar signs, and wrap the line in double quotes
-    line = line.replace('\\', '\\\\').replace('$', '\\$').replace('"', '\\"')
+    line = line.replace('\\', '\\\\').replace('$', '\\\$').replace('"', '\\"')
     return f'"{line}",'
 
 def main():
@@ -20,7 +20,7 @@ def main():
         with contextlib.suppress(EOFError):
             while True:
                 line = input()
-                if line.strip() == "END":
+                if line.strip().upper() == "END":
                     break 
                 lines.append(line)
     # Process each line
