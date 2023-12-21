@@ -25,7 +25,7 @@ def main():
                 lines.append(line)
     # Process each line
     for line in lines:
-        print(process_line(line))
+        print(process_line(line.strip()))
 
 if __name__ == "__main__":
     main()
