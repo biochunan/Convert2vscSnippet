@@ -5,19 +5,19 @@ A simple shell script to convert a piece of code to vscode snippet
 ## Installation
 
 ```shell
-$ pip install git+https://github.com/biochunan/Convert2vscSnippet
+pip install git+https://github.com/biochunan/Convert2vscSnippet
 ```
 
 ## Usage
 
 Grant execution permission 
 ```shell
-$ chmod +x convert2snippet.sh 
+chmod +x convert2snippet.sh 
 ```
 
 For small pieces of code, use the interactive version
 ```shell
-$ ./convert2snippet.sh
+./convert2snippet.sh
 Enter text (Ctrl-D to finish):
 RUN conda install pandas 
 "RUN conda install pandas ",
@@ -35,7 +35,7 @@ RUN touch /var/run/docker-host.sock \
 
 pass the file location to the script
 ```shell 
-$ ./convert2snippet.sh raw 
+./convert2snippet.sh raw 
 ```
 stdout:
 ```
